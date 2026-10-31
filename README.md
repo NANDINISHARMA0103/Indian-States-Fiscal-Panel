@@ -8,7 +8,7 @@
 ![Plotly](https://img.shields.io/badge/Plotly-animated%20charts-3F4F75?logo=plotly&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-![Fixed-effects estimates](images/fe_coefficients.png)
+![Fixed-effects estimates](fe_coefficients.png)
 
 *Effect of +1 percentage point of GSDP on per capita NSDP (%), fixed-effects specification B, 95% confidence intervals.*
 
@@ -34,8 +34,8 @@ It tests five hypotheses, each about one fiscal indicator measured as a share of
 
 <table>
 <tr>
-<td width="50%"><img src="images/fiscal_trends.png" alt="Fiscal deficit and liabilities over time"></td>
-<td width="50%"><img src="images/state_rankings.png" alt="State rankings"></td>
+<td width="50%"><img src="fiscal_trends.png" alt="Fiscal deficit and liabilities over time"></td>
+<td width="50%"><img src="state_rankings.png" alt="State rankings"></td>
 </tr>
 <tr>
 <td><b>Rising burden.</b> Average fiscal deficit and outstanding liabilities both climbed over the decade, with a sharp jump in the COVID year 2020-21.</td>
@@ -45,7 +45,7 @@ It tests five hypotheses, each about one fiscal indicator measured as a share of
 
 ## How robust is it?
 
-![Robustness checks](images/robustness_checks.png)
+![Robustness checks](robustness_checks.png)
 
 The revenue-expenditure result is the only one that holds up. Its estimate stays negative in all six robustness checks: winsorising at 1%/99%, dropping the seven north-eastern special-category states, dropping all eleven special-category states, adding a post-split dummy (Andhra Pradesh and Telangana), using lagged regressors, and excluding 2020-21. The lagged-regressor interval is borderline. The other four indicators stay statistically indistinguishable from zero.
 
